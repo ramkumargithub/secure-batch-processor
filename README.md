@@ -182,8 +182,8 @@ If you want to run the provided example project, do the following:
 ## Security Tests
 
 ✅ Included Test Cases
-	1.	MD5 Validation Test – Confirms MD5 checksum logic is correct.
-	2.	Directory Traversal Protection – Ensures receiver_id can’t break out of target paths.
-	3.	Secure XML Parser Test – Verifies that XXE prevention settings are in place.
-	4.	Safe Deletion Check – Validates secure file deletion flow.
+1.	MD5 Validation Test – Confirms MD5 checksum logic is correct.
+2.	Directory Traversal Protection – Ensures receiver_id can’t break out of target paths.
+3.	Secure XML Parser Test – Verifies that XXE prevention settings are in place.
+4.	Safe Deletion Check – Validates secure file deletion flow.
 
