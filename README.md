@@ -179,4 +179,11 @@ If you want to run the provided example project, do the following:
 1. Run: `docker run batch-processor`
 1. You should see in the console this message: `*beep boop* ...processing data... *beep boop*`
 
-Notice that you will have to install Java, Maven, Docker etc. tools to your computer yourself. Those are not instructed he
+## Security Tests
+
+✅ Included Test Cases
+	1.	MD5 Validation Test – Confirms MD5 checksum logic is correct.
+	2.	Directory Traversal Protection – Ensures receiver_id can’t break out of target paths.
+	3.	Secure XML Parser Test – Verifies that XXE prevention settings are in place.
+	4.	Safe Deletion Check – Validates secure file deletion flow.
+
