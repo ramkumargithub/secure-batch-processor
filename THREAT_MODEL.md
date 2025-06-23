@@ -32,6 +32,7 @@ This document identifies potential threats and outlines how they are mitigated i
 	•	Threat: Malicious file contents could cause unexpected execution.
 	•	Mitigation: The app does not evaluate or execute file contents.
 
-13. Container-Level Risks
+7. **Container-Level Risks**
+    
 	•	Threat: Exploitable image or exposed data mounts.
 	•	Mitigation: Uses minimal Alpine-based OpenJDK, exposes no ports, and mounts only data volume.
